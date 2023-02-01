@@ -1,0 +1,156 @@
+/* sign-in*/
+.form-signin .form-floating:focus-within {
+    z-index: 2;
+}
+
+.form-signin input[type="email"] {
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.form-signin input[type="password"] {
+    margin-bottom: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+/*Registration*/
+.form-registration input {
+    border-radius: 0;
+    margin-bottom: -1px;
+}
+
+/* navbar */
+
+.navbar {
+    background-color: #184a32;
+}
+
+.navbar-brand {
+    font-family: "Lobster Two";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 62px;
+}
+
+.navbar li {
+    font-family: "Josefin Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: center;
+    padding-left: 20px;
+}
+
+.navbar span {
+    font-family: "Abel";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 38px;
+    text-align: center;
+}
+
+.navbar span a {
+    color: white;
+}
+
+/* View */
+body {
+    background-color: rgba(13, 61, 27, 0.9);
+    color: white;
+}
+
+body a {
+    text-decoration: none;
+    color: rgb(241, 229, 213);
+}
+
+/* View Home */
+.content {
+    overflow-x: hidden;
+}
+
+.content .coverBuku {
+    border-radius: 80px;
+}
+
+.content .img-home,
+.img-book {
+    max-width: 200px;
+    max-height: 300px;
+}
+
+.img-category {
+    max-width: 1000px;
+    max-height: 400px;
+}
+
+.content .bg-cover {
+    background-color: rgb(121, 117, 117, 0.7);
+    width: 300px;
+    height: 400px;
+    border-radius: 80px;
+}
+
+.content .btn-readMore {
+    font-family: "Rubik";
+    border-radius: 14px;
+}
+
+.content .garisKanan p {
+    font-family: "Noto Serif";
+    transform: rotate(90deg);
+    font-size: 28px;
+}
+
+.infoBook {
+    background-color: rgb(50, 83, 61, 0.8);
+    border-radius: 25px;
+}
+
+.synopsis {
+    text-align: justify;
+}
+
+.books-categories {
+    font-family: "Signika Negative";
+}
+
+.books-title {
+    font-family: "Rowdies";
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.books-excerpt {
+    font-family: "Roboto Slab";
+}
+
+.card-categories {
+    font-family: "Cairo";
+}
+
+.btn-rm {
+    font-family: "Montserrat";
+}
+
+/* Responsive */
+
+@media only screen and (max-width: 768px) {
+    .garisKiri {
+        display: none;
+    }
+
+    .garisKanan {
+        display: none;
+    }
+
+    .bg-cover,
+    .home-img {
+        width: 200px;
+    }
+}
