@@ -25,6 +25,7 @@
 
 .navbar {
     background-color: #184a32;
+    z-index: 999;
 }
 
 .navbar-brand {
@@ -136,6 +137,20 @@ body a {
 
 .btn-rm {
     font-family: "Montserrat";
+}
+
+/* About */
+.aboutUS p,
+li {
+    text-align: justify;
+    font-family: "Mukta";
+    font-size: 20px;
+}
+
+.aboutUS .title {
+    text-align: justify;
+    align-items: center;
+    font-family: "Lobster Two";
 }
 
 /* Responsive */
