@@ -45,7 +45,7 @@ class DashboardReviewController extends Controller
         $validatedData = $request->validate([
             'bookTitle' => 'required|max:255',
             'slugs' => 'required|unique:books',
-            'authors' => 'required|max:255',
+            'author' => 'required|max:255',
             'category_id' => 'required',
             'image' => 'image|file|max:1024',
             'synopsis' => 'required',
@@ -58,7 +58,7 @@ class DashboardReviewController extends Controller
         }
 
         $validatedData['user_id'] = auth()->user()->id;
-        $validatedData['author'] = auth()->user();
+        $validatedData['authors'] = auth()->user();
         $validatedData['excerpt'] = Str::limit(strip_tags($request->synopsis), 80);
 
         Book::create($validatedData);
@@ -106,7 +106,7 @@ class DashboardReviewController extends Controller
         $rules = [
             'bookTitle' => 'required|max:255',
             'category_id' => 'required',
-            'authors' => 'required|max:255',
+            'author' => 'required|max:255',
             'image' => 'image|file|max:1024',
             'synopsis' => 'required',
             'publisher' => 'required',
@@ -127,7 +127,7 @@ class DashboardReviewController extends Controller
         }
         
         $validatedData['user_id'] = auth()->user()->id;
-        $validatedData['author'] = auth()->user();
+        $validatedData['authors'] = auth()->user();
         $validatedData['excerpt'] = Str::limit(strip_tags($request->synopsis), 80);
 
         Book::where('id', $book->id)

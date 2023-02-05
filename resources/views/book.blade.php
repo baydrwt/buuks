@@ -6,7 +6,7 @@
             <div class="col-md-7 mt-3 mb-2 pt-3">
                 <h2 class="bookTitle">{{ $books->bookTitle }}</h2>
                 <h5 class="author">Reviewer : <a href="/authors/{{ $books->user->name }}">{{ $books->user->name }}</a></h5>
-                <h5 class="authors">Author : {{ $books->authors }}</h5>
+                <h5 class="authors">Author : {{ $books->author }}</h5>
                 <h5 class="publisher">Publisher : {{ $books->publisher }}</h5>
                 <h5 class="category">Category : <a href="/categories/{{ $books->category->slugs }}">{{ $books->category->name }}</a></h5>
                 <h5 class="page">Page : {{ $books->page }}</h5>

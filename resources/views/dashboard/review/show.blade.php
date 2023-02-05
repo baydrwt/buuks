@@ -18,7 +18,7 @@
                 </button>
             </form>
             <h1 class="bookTitle">{{ $book->bookTitle }}</h1>
-            <h5 class="authors">Author : {{ $book->authors }}</h5>
+            <h5 class="authors">Author : {{ $book->author }}</h5>
             <h5 class="publisher">Publisher : {{ $book->publisher }}</h5>
             <h5 class="category">Category : {{ $book->category->name }}</h5>
             <h5 class="page">Page : {{ $book->page }}</h5>

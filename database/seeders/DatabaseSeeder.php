@@ -25,7 +25,7 @@ class DatabaseSeeder extends Seeder
             'user_id' => 1,
             'slugs' => 'cinta-brontosaurus',
             'author' => 'Raditya Dika',
-            'authors' => 'Raditya Dika',
+            'authors' => 'Bayu Darwanto',
             'publisher' => 'Pustaka Gramedia',
             'page' => 170,
             'excerpt' => 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptas, praesentium accusamus! Repellat obcaecati laudantium sunt commodi facere exercitationem aspernatur nobis asperiores. Repellendus perferendis fuga cupiditate',
@@ -38,7 +38,7 @@ class DatabaseSeeder extends Seeder
             'user_id' => 1,
             'slugs' => 'manusia-setengah-salmon',
             'author' => 'Raditya Dika',
-            'authors' => 'Raditya Dika',
+            'authors' => 'Bayu Darwanto',
             'publisher' => 'Pustaka Gramedia',
             'page' => 170,
             'excerpt' => 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptas, praesentium accusamus! Repellat obcaecati laudantium sunt commodi facere exercitationem aspernatur nobis asperiores. Repellendus perferendis fuga cupiditate',
@@ -51,7 +51,7 @@ class DatabaseSeeder extends Seeder
             'user_id' => 1,
             'slugs' => 'marmut-merah-jambu',
             'author' => 'Raditya Dika',
-            'authors' => 'Raditya Dika',
+            'authors' => 'Bayu Darwanto',
             'publisher' => 'Pustaka Gramedia',
             'page' => 170,
             'excerpt' => 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptas, praesentium accusamus! Repellat obcaecati laudantium sunt commodi facere exercitationem aspernatur nobis asperiores. Repellendus perferendis fuga cupiditate',
@@ -64,7 +64,7 @@ class DatabaseSeeder extends Seeder
             'user_id' => 1,
             'slugs' => 'kambing-jantan',
             'author' => 'Raditya Dika',
-            'authors' => 'Raditya Dika',
+            'authors' => 'Bayu Darwanto',
             'publisher' => 'Pustaka Gramedia',
             'page' => 170,
             'excerpt' => 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptas, praesentium accusamus! Repellat obcaecati laudantium sunt commodi facere exercitationem aspernatur nobis asperiores. Repellendus perferendis fuga cupiditate',
@@ -96,9 +96,9 @@ class DatabaseSeeder extends Seeder
             'slugs' => 'mystery']);
 
         User::create([
-            'name' => 'Raditya Dika',
-            'username' => 'radityadika',
-            'email' => 'radityadika@gmail.com',
+            'name' => 'Bayu Darwanto',
+            'username' => 'baydrwt',
+            'email' => 'bayudarwanto@gmail.com',
             'password' => bcrypt('12345')
         ]);
 

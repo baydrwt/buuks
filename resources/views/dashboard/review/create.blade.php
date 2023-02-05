@@ -27,9 +27,9 @@
                 @enderror
             </div>
             <div class="mb-3">
-                <label for="authors" class="form-label">Author</label>
-                <input type="text" class="form-control @error('authors') is-invalid @enderror" id="authors" name="authors" value="{{ old('authors') }}">
-                @error('authors')
+                <label for="author" class="form-label">Author</label>
+                <input type="text" class="form-control @error('author') is-invalid @enderror" id="author" name="author" value="{{ old('author') }}">
+                @error('author')
                     <div class="invalid-feedback">
                         {{ $message }}
                     </div>
